@@ -1,2 +1,5 @@
 # A-beutiful-Navbar
-Navbar using a different colors in Arabic
+I used a different colors for building this navbar.
+
+This project is a good assignment for begginers to learn how to
+  mix colors with gradient.
