@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <title>gradients</title>
+    <style>
+  * {direction: rtl;}
+  .parent {
+    width: 85%;
+    height: 50px;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 1.7em;
+    background-color: #6777d7;
+    position: absolute;
+    top: 10px;
+    right: 1%;
+    border: 2px solid red;
+    border-radius: 20px;
+    justify-content: space-around;
+  }
+  .d3 {
+    align-items: center;
+    background-color: #832dff;
+    display: inline-flex;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .d1 {align-items: center;
+       background-color: #832dff;
+       display: inline-flex;
+       border-radius: 20px;
+       cursor: pointer;
+       word-spacing: 20px;
+       letter-spacing: 4px;
+     }
+     .parent::before {content: "";
+      top: 52px;
+      right: 0%;
+      position: absolute;
+      width: 100%;
+      height: 10px;
+      background-color: #0245f1;
+      border-radius: 10px;
+      background-image: linear-gradient(to left,
+
+      yellow 2%,
+      #00ff26 5%,
+      #00ff26 12%,
+      yellow 15%,
+      yellow 17%,
+      #2d52b1 22%,
+      #2d52b1 29%,
+      yellow 33%,
+      yellow 35%,
+      #d95151 37%,
+      #d95151 44%,
+      yellow 48%,
+      aqua 54%,
+      aqua 67%,
+      yellow 71%,
+      #ff60ee 77%,
+      #ff60ee 93%,
+      yellow 97%
+
+
+
+     )}
+    </style>
+  </head>
+  <body>
+    <dev class="parent">
+      <div class="d3"> الرئيسية </div>
+      <div class="d3"> اعمالنا </div>
+      <div class="d3"> اهدافنا </div>
+      <div class="d3"> ادعم المشروع </div>
+      <div class="d1"> اخر المنشورات </div>
+      <!--<span class="s"></span>-->
+    </dev>
+  </body>
+
+</html>
